@@ -1,0 +1,60 @@
+
+
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+form{
+    padding: 1rem;
+    background: white;  
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.input{
+    flex: 1;
+}
+
+.output{
+    flex: 1;
+    margin-top:7rem;
+}
+
+
+label{ 
+    margin-left: 5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+input{
+    margin-bottom: 1rem;
+    margin-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    border: 1px solid black;
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 920px){
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 0;
+    }
+    .input{
+        padding-bottom: 2rem;
+    }
+    #submit{
+        margin-left: 4rem;
+    }
+    .output{
+        margin-top: -1rem;
+    }
+}
